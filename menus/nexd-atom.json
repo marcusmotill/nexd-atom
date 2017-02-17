@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Jump To Reference",
+        "command": "nexd-atom:jump"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nexd-atom",
+          "submenu": [
+            {
+              "label": "Jump To Reference",
+              "command": "nexd-atom:jump"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

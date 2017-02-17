@@ -1,0 +1,21 @@
+{
+  "name": "nexd-atom",
+  "main": "./lib/nexd-atom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "nexd-atom:jump"
+  },
+  "repository": "https://github.com/atom/nexd-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fuzzysearch": "^1.0.3",
+    "line-number": "^0.1.0",
+    "lodash": "^4.17.4",
+    "stacktrace-js": "^1.3.1"
+  }
+}
